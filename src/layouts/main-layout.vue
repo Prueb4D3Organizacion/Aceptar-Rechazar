@@ -8,14 +8,6 @@ import PersonRents from '@/contexts/learning/components/person-rents.vue'
   <TheHeader />
   <div class="main-content">
     <PersonRents  />
-    <PersonRents  />
-    <PersonRents  />
-    <PersonRents  />
-    <PersonRents  />
-    <PersonRents  />
-    <PersonRents  />
-    <PersonRents  />
-
   </div>
 </div>
 </template>
