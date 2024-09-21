@@ -1,15 +1,17 @@
 <script setup>
 import TheHeader from './the-header.vue'
-import PersonRents from '@/contexts/learning/components/person-rents.vue'
 </script>
 
 <template>
-<div class="layout">
-  <TheHeader />
-  <div class="main-content">
-    <PersonRents  />
+  <div class="layout">
+    <TheHeader />
+    <div class="main-content">
+      <main class="content">
+        <router-view></router-view>
+      </main>
+    </div>
   </div>
-</div>
+
 </template>
 
 <style scoped>
